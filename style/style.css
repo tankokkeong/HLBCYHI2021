@@ -37,11 +37,21 @@
 }
 
 .articles-body{
-    width: 100%;
+    
 }
 
 .article-body-img{
+    width: 100vw;
+}
+
+.article-img{
     width: 100%;
+}
+
+.articles-header{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    text-align: center;
 }
 
 .footer {
