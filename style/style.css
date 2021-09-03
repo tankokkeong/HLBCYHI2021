@@ -2,3 +2,31 @@
     min-width: 100vw;
     min-height:100vh;
 }
+
+.bg-nav{
+    background-color: #00c2cb;
+}
+
+.navbar-brand{
+    font-weight: bold!important;
+    color: white!important;
+}
+
+.nav-link{
+    font-weight: bold!important;
+    color: white!important;
+}
+
+.nav-link:hover{
+    color: rgb(146, 146, 146)!important;
+}
+
+.navbar-toggler{
+    border: 1px solid white!important;
+}
+
+.navbar-toggler-icon{
+    background-image: none!important;
+    position: relative;
+    top: 5px;
+}
