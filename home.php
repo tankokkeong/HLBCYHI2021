@@ -16,12 +16,48 @@
     ?>
 
     <div class="body-content">
-        <div class="">
-            <div>
+        <div class="articles-body">
+            <img class="article-body-img" src="images/homepage-img.jpg" alt="home">
+            <div class="articles-header">
                 <h4>Financial Literacy Articles</h4>
             </div>
-            <div>
-
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="mr-4 col-4">
+                        One of two columns
+                    </div>
+                    <div class="col-4">
+                        <div class="articles-desc">
+                            <p>Title : </p>
+                            <p>Description : </p>
+                            <p>Tags : </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="mr-4 col-4">
+                        One of two columns
+                    </div>
+                    <div class="col-4">
+                        <div class="articles-desc">
+                            <p>Title : </p>
+                            <p>Description : </p>
+                            <p>Tags : </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="mr-4 col-4">
+                        One of two columns
+                    </div>
+                    <div class="col-4">
+                        <div class="articles-desc">
+                            <p>Title : </p>
+                            <p>Description : </p>
+                            <p>Tags : </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
