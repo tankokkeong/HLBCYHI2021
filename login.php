@@ -19,7 +19,7 @@
     <div class="body-content">
         <div class="login-body">
             <div class="login-img">
-                <img src="images/Mobile-login-rafiki.png" />
+                <img src="images/mobile-login-rafiki.png" />
             </div>
         </div>
     </div>
