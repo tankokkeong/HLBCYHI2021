@@ -17,7 +17,9 @@
 
     <div class="body-content">
         <div class="articles-body">
-            <img class="article-body-img" src="images/homepage-img.jpg" alt="home">
+            <div class="article-body-img">
+                <img class="article-img" src="images/homepage-img.jpg" alt="home">
+            </div>
             <div class="articles-header">
                 <h4>Financial Literacy Articles</h4>
             </div>
