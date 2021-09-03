@@ -44,7 +44,7 @@
 
                         <div class="row">
                             <div class="col">
-                                <a href="sign-up">Do not have an account?</a>
+                                <a href="sign-up.php">Do not have an account?</a>
                             </div>
 
                             <div class="col text-right">
