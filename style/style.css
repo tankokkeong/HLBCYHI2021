@@ -31,7 +31,24 @@
 }
 
 .navbar-toggler-icon{
-    background-image: none!important;
+    background-image: none;
     position: relative;
-    top: 5px;
+    top: 1px;
 }
+
+.articles-body{
+    width: 100%;
+}
+
+.article-body-img{
+    width: 100%;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00c2cb;
+    color: white;
+    text-align: center;
+  }
