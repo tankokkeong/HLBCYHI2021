@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <?php
+        include 'plugins.php';
+    ?>
 
 </head>
 <body>
@@ -13,7 +16,14 @@
     ?>
 
     <div class="body-content">
+        <div class="">
+            <div>
+                <h4>Financial Literacy Articles</h4>
+            </div>
+            <div>
 
+            </div>
+        </div>
     </div>
 
     <?php 
