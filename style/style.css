@@ -37,10 +37,28 @@
 }
 
 .articles-body{
-    
+    position: relative;
+}
+
+.article-body-img{
+    position: relative;
 }
 
 .article-img{
+    width: 100%;
+}
+
+.article-container{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 75%;
+    height: 75%;
+}
+
+.article-container-contents{
+    background-color: #00c2cb;
     width: 100%;
 }
 
@@ -48,6 +66,15 @@
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     text-align: center;
+}
+
+.article-content{
+    width: 100%;
+    position: relative;
+}
+
+.article-details{
+    margin-top: 2.5%;
 }
 
 .footer {

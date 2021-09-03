@@ -20,43 +20,47 @@
             <div class="article-body-img">
                 <img class="article-img" src="images/homepage-img.jpg" alt="home">
             </div>
-            <div class="articles-header">
-                <h4>Financial Literacy Articles</h4>
-            </div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="mr-4 col-4">
-                        One of two columns
+            <div class="article-container">
+                <div class="article-container-contents">
+                    <div class="articles-header">
+                        <h4>Financial Literacy Articles</h4>
                     </div>
-                    <div class="col-4">
-                        <div class="articles-desc">
-                            <p>Title : </p>
-                            <p>Description : </p>
-                            <p>Tags : </p>
+                    <div class="article-content">
+                        <div class="article-details row">
+                            <div class="col-md-5">
+                                One of two columns
+                            </div>
+                            <div class="col-md-5">
+                                <div class="articles-desc">
+                                    <p>Title : </p>
+                                    <p>Description : </p>
+                                    <p>Tags : </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="mr-4 col-4">
-                        One of two columns
-                    </div>
-                    <div class="col-4">
-                        <div class="articles-desc">
-                            <p>Title : </p>
-                            <p>Description : </p>
-                            <p>Tags : </p>
+                        <div class="article-details row">
+                            <div class="col-md-5">
+                                One of two columns
+                            </div>
+                            <div class="col-md-5">
+                                <div class="articles-desc">
+                                    <p>Title : </p>
+                                    <p>Description : </p>
+                                    <p>Tags : </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="mr-4 col-4">
-                        One of two columns
-                    </div>
-                    <div class="col-4">
-                        <div class="articles-desc">
-                            <p>Title : </p>
-                            <p>Description : </p>
-                            <p>Tags : </p>
+                        <div class="article-details row">
+                            <div class="col-md-5">
+                                One of two columns
+                            </div>
+                            <div class="col-md-5">
+                                <div class="articles-desc">
+                                    <p>Title : </p>
+                                    <p>Description : </p>
+                                    <p>Tags : </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
