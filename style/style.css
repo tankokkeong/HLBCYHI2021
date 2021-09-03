@@ -5,11 +5,7 @@
 
 .body-content{
     min-width: 100vw;
-<<<<<<< HEAD
     min-height:100vh;    
-}
-=======
-    min-height:100vh;
 }
 
 .bg-nav{
@@ -39,4 +35,3 @@
     position: relative;
     top: 5px;
 }
->>>>>>> dd18b8356aae47ec8fddde81ec7e4a408d2c956e
