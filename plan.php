@@ -22,7 +22,7 @@
     <div class="body-content mb-5">
         <div class="question-containers">
             <div class="text-center mb-3">
-                <h1>Financial Plan</h1>
+                <h1>Financial Plan Queries</h1>
                 <p class="question-indicator">Answer these 10 questions to get your free financial solutions!</p>
             </div>
 
@@ -179,41 +179,41 @@
 
                 <div class="questions-ask mt-5">
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Q5) How long will you be able to sustain your bank balance after retiring?</label>
+                        <label for="exampleFormControlInput1">Q5) When do you plan to retire?</label>
                     </div>
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="Q5" value="6 Months">
                         <label class="form-check-label" for="exampleRadios2">
-                            6 Months
+                            Before 35 Years old
                         </label>
                     </div>
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="Q5" value="1 Year">
                         <label class="form-check-label" for="exampleRadios2">
-                            1 Year
+                            Before 40 Years Old
                         </label>
                     </div>
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="Q5" value="2 - 4 Years">
                         <label class="form-check-label" for="exampleRadios2">
-                            2 - 4 Years
+                            Before 45 Years Old
                         </label>
                     </div>
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="Q5" value="5 - 10 Years">
                         <label class="form-check-label" for="exampleRadios2">
-                            5 - 10 Years
+                            Before 50 Years Old
                         </label>
                     </div>
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="Q5" value="Not Sure">
                         <label class="form-check-label" for="exampleRadios2">
-                            Not Sure
+                            After 50 Years old
                         </label>
                     </div>
                 </div>
