@@ -27,7 +27,7 @@
             </div>
 
             <form class="">
-                <div class="questions-ask mt-3">
+                <div class="questions-ask mt-5">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Q1) Which financial products are you interested in?</label>
                     </div>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
 
-                <div class="questions-ask mt-3">
+                <div class="questions-ask mt-5">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Q2) Occupation</label>
                     </div>

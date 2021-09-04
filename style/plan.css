@@ -3,8 +3,11 @@
     margin-left: 10%;
     width: 80%;
     padding: 50px;
-    background-color: #00c2cb;
-    color: white;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    border : 2px solid grey;
+    box-shadow: 10px 10px grey;
 }
 
 .form-check-input{
@@ -27,5 +30,5 @@
 
 .question-indicator{
     font-size: 20px;
-    color: white;
+    color: black;
 }
