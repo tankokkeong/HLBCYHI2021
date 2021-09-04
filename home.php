@@ -24,7 +24,7 @@
             <div class="article-container">
                 <div class="article-container-contents">
                     <div class="articles-header">
-                        <h1>Financial Literacy Articles</h1>
+                        <h1 class="text-light">Financial Literacy Articles</h1>
                     </div>
 
                     <div class="article-content">
@@ -45,7 +45,7 @@
                                 printf('    <div class="fakeimg" style="height:400px;">');
                                 printf('        <img src="images/article-image.jpg" class="article-image">');
                                 printf('    </div>');
-                                printf('    <p>%s</p>', $row["Description"]);
+                                printf('    <p class="mt-3">%s</p>', $row["Description"]);
                                 printf('</div>');
                             }
                         
