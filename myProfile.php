@@ -16,84 +16,113 @@
         include 'header.php';
     ?>
 
-    <div class="profile-title-container text-center mt-5">
-
-        <h1 class="profile-title">My Profile</h1>
-
-    </div>
+    
 
     <div class="profile-container">
 
-        <form>
-            <div class="form-group row">
-                <label for="name" class="col-sm-2 col-form-label">Name</label>
-                <div class="col-sm-10">
-                <input type="name" class="form-control" id="name" value="Emma Rammos">
-                </div>
-            </div>
+        <div class="profile-title-container text-center mt-5">
 
-            <div class="form-group row">
-                <label for="age" class="col-sm-2 col-form-label">Age</label>
-                <div class="col-sm-10">
-                <input type="age" class="form-control" id="age" value="26">
-                </div>
-            </div>
+            <h1 class="profile-title">My Profile</h1>
 
-            <div class="form-group row">
-                <label for="location" class="col-sm-2 col-form-label">Location</label>
-                <div class="col-sm-10">
-                <input type="location" class="form-control" id="location" value="Istanbul">
-                </div>
-            </div>
+        </div>
 
-            <div class="form-group row">
-                <label for="occupation" class="col-sm-2 col-form-label">Occupation</label>
-                <div class="col-sm-10">
-                <input type="occupation" class="form-control" id="occupation" value="Financial Manager">
-                </div>
-            </div>
+        <div class="profileInfo-container">
 
-            <div class="form-group row">
-                <label for="income" class="col-sm-2 col-form-label">Monthly income</label>
-                <div class="col-sm-10">
-                <select class="form-control income">
-                    <option>Select your salary range</option>
-                    <option>RM 0 - RM 1000</option>
-                    <option>RM 1001 - RM 4000</option>
-                    <option>RM 4000 - RM 10000</option>
-                    <option>RM 10001 and above</option>
-                </select>
+            <form>
+                <div class="form-group row">
+                    <label for="name" class="col-sm-2 col-form-label">Name</label>
+                    <div class="col-sm-10">
+                    <input type="name" class="form-control" id="name" value="Emma Rammos">
+                    </div>
                 </div>
-            </div>
 
-            <div class="form-group row">
-                <label for="income" class="col-sm-2 col-form-label">Interest</label>
-                <div class="col-sm-10">
-                <select class="form-control income">
-                    <option>Select your interest</option>
-                </select>
+                <div class="form-group row">
+                    <label for="age" class="col-sm-2 col-form-label">Age</label>
+                    <div class="col-sm-10">
+                    <input type="age" class="form-control" id="age" value="26">
+                    </div>
                 </div>
-            </div>
 
-            <div class="form-group row">
-                <label for="income" class="col-sm-2 col-form-label">Goals</label>
-                <div class="col-sm-10">
-                <select class="form-control income">
-                    <option>Select your goal</option>
-                </select>
+                <div class="form-group row">
+                    <label for="location" class="col-sm-2 col-form-label">Location</label>
+                    <div class="col-sm-10">
+                    <!-- <input type="location" class="form-control" id="location" value="Istanbul"> -->
+                    <select class="form-control location" id="location">
+                        <option>Select the location</option>
+                        <option>Johor</option>
+                        <option>Kedah</option>
+                        <option>Kelantan</option>
+                        <option>Melaka</option>
+                        <option>Negeri Sembilan</option>
+                        <option>Pahang</option>
+                        <option>Penang</option>
+                        <option>Perak</option>
+                        <option>Perlis</option>
+                        <option>Sabah</option>
+                        <option>Sarawak</option>
+                        <option>Selangor</option>
+                        <option>Terengganu</option>
+                        <option>Wilayah Persekutuan Kuala Lumpur</option>
+                        <option>Wilayah Persekutuan Labuan</option>
+                        <option>Wilayah Persekutuan Putrajaya</option>
+                    </select>
+                    </div>
                 </div>
-            </div>
-            <button type="button" class="btn btn-success btn-block btn-lg mt-5 save-profile" id="save-profile">Save Profile</button>
-        </form>
 
-     
+                <div class="form-group row">
+                    <label for="occupation" class="col-sm-2 col-form-label">Occupation</label>
+                    <div class="col-sm-10">
+                    <input type="occupation" class="form-control" id="occupation" value="Financial Manager">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="income" class="col-sm-2 col-form-label">Monthly income</label>
+                    <div class="col-sm-10">
+                    <select class="form-control income">
+                        <option>Select your salary range</option>
+                        <option>RM 0 - RM 1000</option>
+                        <option>RM 1001 - RM 4000</option>
+                        <option>RM 4000 - RM 10000</option>
+                        <option>RM 10001 and above</option>
+                    </select>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="income" class="col-sm-2 col-form-label">Interest</label>
+                    <div class="col-sm-10">
+                    <select class="form-control income">
+                        <option>Select your interest</option>
+                    </select>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="income" class="col-sm-2 col-form-label">Goals</label>
+                    <div class="col-sm-10">
+                    <select class="form-control income">
+                        <option>Select your goal</option>
+                    </select>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-success btn-block btn-lg mt-5 save-profile" id="save-profile">Save Profile</button>
+            </form>
+
+        </div>
+
 
     </div>
+
+
     <style>
-        
         .profile-container{
-            margin: 3% 5%;
-            padding: 5% 10%;
+            min-height: 100vh;
+        }
+
+        .profileInfo-container{
+            margin: 3% 5% !important;
+            padding: 5% 10%!important;
         }
 
     </style>
