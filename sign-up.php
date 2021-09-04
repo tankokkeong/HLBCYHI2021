@@ -51,6 +51,12 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="row">
+                            <div class="col mt-3 text-center">
+                                <a href="login.php">Already Have an Account? Sign in</a>
+                            </div>
+                        </div>
                     </form>
                     
                 </div>
