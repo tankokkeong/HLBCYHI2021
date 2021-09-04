@@ -28,22 +28,42 @@
                     </div>
 
                     <div class="article-content">
-                        <div class="card article-display">
+                        <?php 
+                            // get database credentials
+                            include("database/database-credential.php");
+
+                            $query = "SELECT * FROM cnbc_headlines";
+                        
+                            $result = mysqli_query ($conn, $query);
+
+                            //print out results
+                            while ($row = mysqli_fetch_array($result))
+                            {
+                                printf('<div class="card article-display mb-3">');
+                                printf('    <h3>%s</h3>', $row['Headlines']);
+                                printf('    <span>%s</span>', $row["Time"]);
+                                printf('    <div class="fakeimg" style="height:400px;">');
+                                printf('        <img src="images/article-image.jpg" class="article-image">');
+                                printf('    </div>');
+                                printf('    <p>%s</p>', $row["Description"]);
+                                printf('</div>');
+                            }
+                        
+                        ?>
+                        <!-- <div class="card article-display">
                             <h3>TITLE HEADING</h3>
                             <span>Title description, Dec 7, 2017</span>
 
                             <div class="fakeimg" style="height:400px;">
                                 <img src="images/article-image.jpg" class="article-image">
                             </div>
-                                <p>Some text..</p>
                                 <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                            </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <?php 
         include 'footer.php';
     ?>
