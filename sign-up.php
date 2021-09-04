@@ -45,11 +45,6 @@
                             <div class="col text-center">
                                 <button type="submit" class="btn btn-primary">Register</button>
                             </div>
-                            <div class="row">
-                                <div class="col mt-3 text-center">
-                                    <a href="login.php">Already Have an Account? Sign in</a>
-                                </div>
-                            </div>
                         </div>
 
                         <div class="row">
