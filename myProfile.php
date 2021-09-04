@@ -106,7 +106,11 @@
                     </select>
                     </div>
                 </div>
-                <button type="button" class="btn btn-success btn-block btn-lg mt-5 save-profile" id="save-profile">Save Profile</button>
+                <div class="text-center">
+                    <button type="button" class="btn btn-primary mt-3 save-profile" id="save-profile">Save Profile</button>
+                </div>
+
+                           
             </form>
 
         </div>
