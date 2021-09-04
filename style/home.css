@@ -1,9 +1,9 @@
-/* .articles-body{
+.articles-body{
     background-image: url('../images/homepage-img.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-} */
+}
 
 .article-img{
     width: 100%;
@@ -18,9 +18,10 @@
 }
 
 .article-container-contents{
-    background-color: #00c2cb;
+    background-color: white;
     width: 100%;
     padding: 1.5%;
+    box-shadow: 0 0 100px #000000;
 }
 
 .articles-header{

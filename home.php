@@ -21,7 +21,7 @@
             <div class="article-container">
                 <div class="article-container-contents">
                     <div class="articles-header">
-                        <h1 class="text-light">Financial Literacy Articles</h1>
+                        <h1 class="text-dark ">Financial Literacy Articles</h1>
                     </div>
 
                     <div class="article-content">
@@ -30,7 +30,7 @@
                                 <div class="search-icon-container">
                                     <i class="fas fa-search"></i>
                                 </div>
-                                <input type="text" class="form-control" placeholder="Search articles here..." id="article-input"/>
+                                <input type="text" class="form-control border border-secondary" placeholder="Search articles here..." id="article-input"/>
                             </form>
                         </div>
 
@@ -45,7 +45,7 @@
                             //print out results
                             while ($row = mysqli_fetch_array($result))
                             {
-                                printf('<div class="card article-display mb-3">');
+                                printf('<div class="card article-display mb-3 shadow-lg p-3 mb-5 bg-white rounded">');
                                 printf('    <h3>%s</h3>', $row['Headlines']);
                                 printf('    <span>%s</span>', $row["Time"]);
                                 printf('    <div class="fakeimg">');
