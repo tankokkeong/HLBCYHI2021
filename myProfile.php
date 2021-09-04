@@ -32,14 +32,21 @@
                 <div class="form-group row">
                     <label for="name" class="col-sm-2 col-form-label">Name</label>
                     <div class="col-sm-10">
-                    <input type="name" class="form-control" id="name" value="Emma Rammos">
+                    <input type="name" class="form-control" id="name" placeholder="Emma Rammos">
                     </div>
                 </div>
 
                 <div class="form-group row">
                     <label for="age" class="col-sm-2 col-form-label">Age</label>
                     <div class="col-sm-10">
-                    <input type="age" class="form-control" id="age" value="26">
+                    <input type="age" class="form-control" id="age" placeholder="26">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="occupation" class="col-sm-2 col-form-label">Occupation</label>
+                    <div class="col-sm-10">
+                    <input type="occupation" class="form-control" id="occupation" placeholder="Financial Manager">
                     </div>
                 </div>
 
@@ -70,13 +77,6 @@
                 </div>
 
                 <div class="form-group row">
-                    <label for="occupation" class="col-sm-2 col-form-label">Occupation</label>
-                    <div class="col-sm-10">
-                    <input type="occupation" class="form-control" id="occupation" value="Financial Manager">
-                    </div>
-                </div>
-
-                <div class="form-group row">
                     <label for="income" class="col-sm-2 col-form-label">Monthly income</label>
                     <div class="col-sm-10">
                     <select class="form-control income">
@@ -89,23 +89,6 @@
                     </div>
                 </div>
 
-                <div class="form-group row">
-                    <label for="income" class="col-sm-2 col-form-label">Interest</label>
-                    <div class="col-sm-10">
-                    <select class="form-control income">
-                        <option>Select your interest</option>
-                    </select>
-                    </div>
-                </div>
-
-                <div class="form-group row">
-                    <label for="income" class="col-sm-2 col-form-label">Goals</label>
-                    <div class="col-sm-10">
-                    <select class="form-control income">
-                        <option>Select your goal</option>
-                    </select>
-                    </div>
-                </div>
                 <div class="text-center">
                     <button type="button" class="btn btn-primary mt-3 save-profile" id="save-profile">Save Profile</button>
                 </div>

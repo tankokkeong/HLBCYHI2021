@@ -29,50 +29,17 @@
                     </div>
 
                     <form class="mt-6 signUp-form">
-                        <div class="row">
-                            <div class="form-group col">
+                        
+                            <div class="form-group ">
                                 <input type="email" class="input-control" placeholder="Email address">
                             </div>
-                            <div class="form-group col">
+                            <div class="form-group ">
                                 <input type="password" class="input-control" placeholder="Password">
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="form-group col">
+                            
+                            <div class="form-group">
                                 <input type="text" class="input-control" placeholder="Full Name">
                             </div>
-                            <div class="form-group col">
-                                <select class="form-control age" id="age">
-                                    <option>Your Age</option>
-                                    <option>18 - 24</option>
-                                    <option>25 - 40</option>
-                                    <option>40 and above</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="form-group col">
-                                <input type="text" class="input-control" placeholder="Designation">
-                            </div>
-                            <div class="form-group col">
-                                <select class="form-control monthlyIncome" id="monthlyIncome">
-                                    <option>Select your salary range</option>
-                                        <option>RM 0 - RM 1000</option>
-                                        <option>RM 1001 - RM 4000</option>
-                                        <option>RM 4000 - RM 10000</option>
-                                        <option>RM 10001 and above</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="text" class="input-control" placeholder="Interest">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="input-control" placeholder="Goals">
-                        </div>
 
                         <div class="row">
                             <div class="col text-center">
