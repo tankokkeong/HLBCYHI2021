@@ -15,6 +15,10 @@
                 </li>
 
                 <li class="nav-item">
+                    <a class="nav-link" href="plan.php">Plans</a>
+                </li>
+
+                <li class="nav-item">
                     <a class="nav-link" href="login.php">Login</a>
                 </li>
             </ul>

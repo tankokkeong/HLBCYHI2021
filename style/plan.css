@@ -1,0 +1,31 @@
+.question-containers{
+    margin-top: 70px;
+    margin-left: 10%;
+    width: 80%;
+    padding: 50px;
+    background-color: #00c2cb;
+    color: white;
+}
+
+.form-check-input{
+    position: relative;
+}
+
+.questions-ask{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-check{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.form-check-label{
+    font-size: 17px;
+}
+
+.question-indicator{
+    font-size: 20px;
+    color: white;
+}
