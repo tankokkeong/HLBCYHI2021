@@ -18,9 +18,6 @@
 
     <div class="body-content">
         <div class="articles-body">
-            <div class="article-body-img">
-                <img class="article-img" src="images/homepage-img.jpg" alt="home">
-            </div>
             <div class="article-container">
                 <div class="article-container-contents">
                     <div class="articles-header">
@@ -28,6 +25,15 @@
                     </div>
 
                     <div class="article-content">
+                        <div class="search-container mt-3">
+                            <form>
+                                <div class="search-icon-container">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Search articles here..." id="article-input"/>
+                            </form>
+                        </div>
+
                         <?php 
                             // get database credentials
                             include("database/database-credential.php");
@@ -42,7 +48,7 @@
                                 printf('<div class="card article-display mb-3">');
                                 printf('    <h3>%s</h3>', $row['Headlines']);
                                 printf('    <span>%s</span>', $row["Time"]);
-                                printf('    <div class="fakeimg" style="height:400px;">');
+                                printf('    <div class="fakeimg">');
                                 printf('        <img src="images/article-image.jpg" class="article-image">');
                                 printf('    </div>');
                                 printf('    <p class="mt-3">%s</p>', $row["Description"]);
