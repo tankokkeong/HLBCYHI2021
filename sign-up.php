@@ -28,25 +28,31 @@
                         <h3>Register You Account.</h3>
                     </div>
 
-                    <form class="mt-6 signUp-form">
+                    <form class="mt-6 signUp-form" action="form/process-signup.php" method="POST">
                         
                             <div class="form-group ">
-                                <input type="email" class="input-control" placeholder="Email address">
+                                <input type="email" class="input-control" name="email" required placeholder="Email address">
                             </div>
                             <div class="form-group ">
-                                <input type="password" class="input-control" placeholder="Password">
+                                <input type="password" class="input-control" name="password" required placeholder="Password">
                             </div>
                             
                             <div class="form-group">
-                                <input type="text" class="input-control" placeholder="Full Name">
+                                <input type="text" class="input-control" name="fullname" required placeholder="Full Name">
                             </div>
 
                         <div class="row">
                             <div class="col text-center">
                                 <button type="submit" class="btn btn-primary">Register</button>
                             </div>
+                            <div class="row">
+                                <div class="col mt-3 text-center">
+                                    <a href="login.php">Already Have an Account? Sign in</a>
+                                </div>
+                            </div>
                         </div>
                     </form>
+                    
                 </div>
                 
                 <div class="col-lg-6 signUp-col signUp-col-1">
