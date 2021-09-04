@@ -11,7 +11,6 @@
 
     if(mysqli_num_rows($sameEmail) > 0 ){
         echo "User Already Exists";
-        echo phpinfo();
     } else {
         $sql = "INSERT INTO users (email, password, full_name) 
         VALUES ('$email', '$password', '$fullname');";
