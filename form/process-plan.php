@@ -38,6 +38,6 @@
     $run_form = mysqli_query($conn, $sql);
 
     if($run_form){
-        header('Location: ../home.php');
+        header('Location: ../plan-details.php');
     }
 ?>

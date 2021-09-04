@@ -1,0 +1,19 @@
+.plan-table{
+    border: 2px solid black!important;
+}
+
+.progress-checkbox{
+    width: 20px;
+    text-align: center;
+}
+
+.progress-col{
+    position: relative;
+}
+
+.progress-col input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
