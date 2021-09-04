@@ -38,7 +38,7 @@
                             // get database credentials
                             include("database/database-credential.php");
 
-                            $query = "SELECT * FROM cnbc_headlines";
+                            $query = "SELECT * FROM IndianFinancialNews limit 25";
                         
                             $result = mysqli_query ($conn, $query);
 
@@ -46,8 +46,8 @@
                             while ($row = mysqli_fetch_array($result))
                             {
                                 printf('<div class="card article-display mb-3 shadow-lg p-3 mb-5 bg-white rounded">');
-                                printf('    <h3>%s</h3>', $row['Headlines']);
-                                printf('    <span>%s</span>', $row["Time"]);
+                                printf('    <h3>%s</h3>', $row['Title']);
+                                printf('    <span>%s</span>', $row["Date"]);
                                 printf('    <div class="fakeimg">');
                                 printf('        <img src="images/article-image.jpg" class="article-image">');
                                 printf('    </div>');
