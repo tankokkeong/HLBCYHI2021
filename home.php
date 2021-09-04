@@ -27,10 +27,7 @@
                     </div>
                     <div class="article-content">
                         <div class="article-details row justify-content-md-center">
-                            <div class="col-md-5">
-                                One of two columns
-                            </div>
-                            <div class="col-md-5">
+                            <div class="col-md-8">
                                 <div class="articles-desc">
                                     <p>Title : </p>
                                     <p>Description : </p>
@@ -39,10 +36,7 @@
                             </div>
                         </div>
                         <div class="article-details row justify-content-md-center">
-                            <div class="col-md-5">
-                                One of two columns
-                            </div>
-                            <div class="col-md-5">
+                            <div class="col-md-8">
                                 <div class="articles-desc">
                                     <p>Title : </p>
                                     <p>Description : </p>
@@ -51,10 +45,7 @@
                             </div>
                         </div>
                         <div class="article-details row justify-content-md-center">
-                            <div class="col-md-5">
-                                One of two columns
-                            </div>
-                            <div class="col-md-5">
+                            <div class="col-md-8">
                                 <div class="articles-desc">
                                     <p>Title : </p>
                                     <p>Description : </p>
