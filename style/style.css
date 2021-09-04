@@ -36,53 +36,6 @@
     top: 1px;
 }
 
-.articles-body{
-    position: relative;
-}
-
-.article-body-img{
-    position: relative;
-}
-
-.article-img{
-    width: 100%;
-    min-height:100vh; 
-}
-
-.article-container{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    width: 75%;
-    height: 75%;
-}
-
-.article-container-contents{
-    background-color: #00c2cb;
-    width: 100%;
-    padding: 1.5%;
-}
-
-.articles-header{
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    text-align: center;
-    padding: 1%;
-}
-
-.article-content{
-    width: 100%;
-    position: relative;
-}
-
-.article-details{
-    margin-top: 2.5%;
-    padding: 1%;
-    margin-right: 1.5%;
-    margin-left: 1.5%;
-}
-
 .footer {
     left: 0;
     bottom: 0;

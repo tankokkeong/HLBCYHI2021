@@ -8,6 +8,7 @@
     <?php
         include 'plugins.php';
     ?>
+    <link rel="stylesheet" href="style/home.css"/> 
 
 </head>
 <body>
@@ -23,36 +24,20 @@
             <div class="article-container">
                 <div class="article-container-contents">
                     <div class="articles-header">
-                        <h4>Financial Literacy Articles</h4>
+                        <h1>Financial Literacy Articles</h1>
                     </div>
+
                     <div class="article-content">
-                        <div class="article-details row justify-content-md-center">
-                            <div class="col-md-8">
-                                <div class="articles-desc">
-                                    <p>Title : </p>
-                                    <p>Description : </p>
-                                    <p>Tags : </p>
-                                </div>
+                        <div class="card article-display">
+                            <h3>TITLE HEADING</h3>
+                            <span>Title description, Dec 7, 2017</span>
+
+                            <div class="fakeimg" style="height:400px;">
+                                <img src="images/article-image.jpg" class="article-image">
                             </div>
-                        </div>
-                        <div class="article-details row justify-content-md-center">
-                            <div class="col-md-8">
-                                <div class="articles-desc">
-                                    <p>Title : </p>
-                                    <p>Description : </p>
-                                    <p>Tags : </p>
-                                </div>
+                                <p>Some text..</p>
+                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                             </div>
-                        </div>
-                        <div class="article-details row justify-content-md-center">
-                            <div class="col-md-8">
-                                <div class="articles-desc">
-                                    <p>Title : </p>
-                                    <p>Description : </p>
-                                    <p>Tags : </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
