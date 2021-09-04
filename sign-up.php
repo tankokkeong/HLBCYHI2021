@@ -43,7 +43,12 @@
                                 <input type="text" class="input-control" placeholder="Full Name">
                             </div>
                             <div class="form-group col">
-                                <input type="text" class="input-control" placeholder="Age">
+                                <select class="form-control age" id="age">
+                                    <option>Your Age</option>
+                                    <option>18 - 24</option>
+                                    <option>25 - 40</option>
+                                    <option>40 and above</option>
+                                </select>
                             </div>
                         </div>
 
@@ -52,7 +57,13 @@
                                 <input type="text" class="input-control" placeholder="Designation">
                             </div>
                             <div class="form-group col">
-                                <input type="text" class="input-control" placeholder="Monthly Income">
+                                <select class="form-control monthlyIncome" id="monthlyIncome">
+                                    <option>Select your salary range</option>
+                                        <option>RM 0 - RM 1000</option>
+                                        <option>RM 1001 - RM 4000</option>
+                                        <option>RM 4000 - RM 10000</option>
+                                        <option>RM 10001 and above</option>
+                                </select>
                             </div>
                         </div>
 
