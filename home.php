@@ -38,7 +38,7 @@
                             // get database credentials
                             include("database/database-credential.php");
 
-                            $query = "SELECT * FROM IndianFinancialNews limit 25";
+                            $query = "SELECT * FROM IndianFinancialNews WHERE Title LIKE '%loan%' limit 25";
                         
                             $result = mysqli_query ($conn, $query);
 

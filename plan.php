@@ -368,7 +368,7 @@
                 </div>
 
                 <div class="mt-4 text-center">
-                    <button type="submit" class="btn btn-dark mt-3" name="update" id="save-profile">Save Profile</button>
+                    <button type="submit" class="btn btn-dark mt-3" name="update" id="save-profile">Get Plan</button>
                 </div>
             </form>
         </div>
