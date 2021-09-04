@@ -34,12 +34,12 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     </div>
 
-                    <form class="mt-3 login-form">
+                    <form class="mt-3 login-form" action="form/process-login.php" method="POST">
                         <div class="form-group">
-                            <input type="email" class="input-control" placeholder="Email address">
+                            <input type="email" class="input-control" name="email" required placeholder="Email address">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="input-control" placeholder="Password">
+                            <input type="password" class="input-control" name="password" required placeholder="Password">
                         </div>
 
                         <div class="row">

@@ -16,6 +16,7 @@
 <body>
     <?php 
         include 'header.php';
+        if(isset($_SESSION["email"])){ 
     ?>
 
     <div class="body-content">
@@ -115,6 +116,9 @@
 
     <?php 
         include 'footer.php';
+        } else {
+            header('Location: login.php');
+        }
     ?>
 </body>
 </html>
