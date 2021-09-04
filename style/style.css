@@ -46,6 +46,7 @@
 
 .article-img{
     width: 100%;
+    min-height:100vh; 
 }
 
 .article-container{
@@ -60,12 +61,14 @@
 .article-container-contents{
     background-color: #00c2cb;
     width: 100%;
+    padding: 1.5%;
 }
 
 .articles-header{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     text-align: center;
+    padding: 1%;
 }
 
 .article-content{
@@ -75,6 +78,7 @@
 
 .article-details{
     margin-top: 2.5%;
+    padding: 1%;
 }
 
 .footer {
@@ -84,4 +88,4 @@
     background-color: #00c2cb;
     color: white;
     text-align: center;
-  }
+}

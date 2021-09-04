@@ -26,7 +26,7 @@
                         <h4>Financial Literacy Articles</h4>
                     </div>
                     <div class="article-content">
-                        <div class="article-details row">
+                        <div class="article-details row justify-content-md-center">
                             <div class="col-md-5">
                                 One of two columns
                             </div>
@@ -38,7 +38,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="article-details row">
+                        <div class="article-details row justify-content-md-center">
                             <div class="col-md-5">
                                 One of two columns
                             </div>
@@ -50,7 +50,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="article-details row">
+                        <div class="article-details row justify-content-md-center">
                             <div class="col-md-5">
                                 One of two columns
                             </div>
