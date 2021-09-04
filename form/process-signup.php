@@ -10,13 +10,17 @@
     $sameEmail = mysqli_query($conn, $queryChecking);
 
     if(mysqli_num_rows($sameEmail) > 0 ){
-        echo "User Already Exists";
+        echo "<script>alert('User Already Exisit'); window.location = '../sign-up.php';</script>";
+
     } else {
         $sql = "INSERT INTO users (email, password, full_name) 
         VALUES ('$email', '$password', '$fullname');";
     
         mysqli_query($conn, $sql);
     
-        header('Location: ../login.php');
+
+        echo "<script>alert('Successfully Registered'); window.location = '../login.php';</script>";
+        
+        //header('Location: ../login.php');
     }
 ?>

@@ -15,6 +15,7 @@
         header('Location: ../home.php');
 
     } else {
-        header('Location: ../login.php');
+        echo "<script>alert('Invalid Email or Password'); window.location = '../login.php';</script>";
+        // header('Location: ../login.php');
     }
 ?>
