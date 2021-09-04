@@ -1,0 +1,51 @@
+.signUp-body{
+    min-height: 100vh;
+}
+
+.signUp-row{
+    margin: 0;
+    padding: 0;
+}
+
+.signUp-col{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.signUp-col-1{
+    background-color: #99ccff;
+    padding: 80px;
+    margin: 0;
+}
+
+.signUp-col-2{
+    background-color: white;
+    position: relative;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+#signUp-image{
+    width: 100%;
+}
+
+.input-control{
+    width: 100%;
+    border: none;
+    padding-bottom: 15px;
+    border-bottom:  1px solid gray;
+    outline: none!important;
+    outline-color: transparent!important;
+    margin-bottom: 30px;
+}
+
+@media (min-width:850px){
+    .signUp-col-1{
+        min-height: 100vh;
+    }
+    
+    .signUp-col-2{
+        min-height: 100vh;
+    }
+}
