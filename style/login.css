@@ -14,16 +14,16 @@
 }
 
 .login-col-1{
-    background-color: #99ccff;
+    background-color: none;
     padding: 80px;
     margin: 0;
 }
 
 .login-col-2{
-    background-color: white;
+    background-color: none;
     position: relative;
     padding: 50px;
-    padding-top: 100px;
+    padding-top: 10%;
 }
 
 #login-image{

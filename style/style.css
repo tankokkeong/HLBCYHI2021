@@ -9,21 +9,26 @@
 }
 
 .bg-nav{
-    background-color: #00c2cb;
+    background-color: white;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,.2); 
+    
 }
 
 .navbar-brand{
+    font-size:xx-large;
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold!important;
-    color: white!important;
+    color: black!important;
 }
 
 .nav-link{
+    font-size:large;
     font-weight: bold!important;
-    color: white!important;
+    color: rgb(146, 146, 146)!important;
 }
 
 .nav-link:hover{
-    color: rgb(146, 146, 146)!important;
+    color: black!important;
 }
 
 .navbar-toggler{
@@ -40,7 +45,8 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #00c2cb;
+    background-color: black;
     color: white;
+    font-weight: bold;
     text-align: center;
 }
